@@ -8,7 +8,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: process.env.ASSET_PATH || '/',
-    filename: 'main/build.js'
+    filename: './main/build.js'
   },
   module: {
     rules: [
@@ -89,9 +89,6 @@ if (process.env.NODE_ENV === 'production') {
     new HtmlWebpackPlugin({
       template: './index.html'
     }),
-    new CopyWebpackPlugin([
-      {from:'src/assets',to:'assets'} 
-    ]),
     new webpack.LoaderOptionsPlugin({
       minimize: true
     })
