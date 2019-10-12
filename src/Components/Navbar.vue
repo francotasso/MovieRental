@@ -13,10 +13,10 @@
       </nav>
     </div>
     <div class="d-md-none">
-      <nav class="navbar navbar-light blue darken-4 fixed-top justify-content-center">
+      <nav class="navbar navbar-light blue darken-4 fixed-top justify-content-center mr-5 pt-3">
         <span class="navbar-brand mb-0 h1 d-flex align-items-center">
           <router-link to="/peliculas" class="navbar-brand ml-5">
-            <h4 class="text-white">Alquiler de películas</h4>
+            <h4 class="text-white">Saldo S/. {{saldo}}</h4>
           </router-link>
         </span>
       </nav>

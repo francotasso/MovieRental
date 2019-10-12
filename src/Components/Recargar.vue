@@ -4,7 +4,7 @@
     <div
       class="container-fluid vh-100 d-flex justify-content-center align-items-center flex-column"
     >
-      <div class="card" style="width: 500px; height: 375px;">
+      <div class="card" style="width: 500px; height: 375px;" id="tarjeta">
         <h5 class="card-header blue darken-4 white-text text-center py-4">
           <strong>Recarga</strong>
         </h5>

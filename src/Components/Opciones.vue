@@ -79,6 +79,16 @@ export default {
 </script>
 
 <style scoped>
+@media screen and (max-width: 992px) {
+  .row {
+    margin-top: 10rem;
+  }
+}
+@media screen and (max-width: 428px) {
+  .row {
+    margin-top: 30rem;
+  }
+}
 </style>
 
 

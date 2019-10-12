@@ -86,6 +86,12 @@
                           <span aria-hidden="true">&times;</span>
                         </button>
                       </div>
+                      <div
+                        v-if="listaPeliculas.length>2"
+                        class="d-flex justify-content-center mt-3"
+                      >
+                        <h6 class="m-auto">Usted ha alcanzado el límite de películas por alquilar</h6>
+                      </div>
                       <div class="modal-body">
                         <ul class="list-group list-group-flush">
                           <li
